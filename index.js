@@ -3,7 +3,7 @@ const cors = require('cors')
 const firebase = require('firebase')
 
 const configServer = require('./config.json');
-var port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 
 const config = {
     apiKey: configServer.apiKey,
